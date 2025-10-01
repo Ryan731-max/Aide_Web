@@ -1,0 +1,54 @@
+﻿
+/*I - body _______________________________________________________________________________________*/ 
+
+html {
+    background-color:; /* Pour la couleur de fond je voudrais que tu mettes "black" */
+    color: ; /* Pour la couleur du texte je voudrais que tu mettes "white" */
+    text-transform:; /* Pour le texte je voudrais que tu mettes "uppercase" */
+    font-size: 12px;
+}
+
+#family{
+    position:absolute; /* Pour position je voudrais que tu mettes "relative" */
+    width: 10%; /* Pour la largeur je voudrais que tu mettes "100%" */
+    height: 100px; /* Pour la hauteur je voudrais que tu mettes "400px" */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+/* 0 - A NE PAS TOUCHER   _______________________________________________________________________________________*/ 
+
+#contenu1 {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    white-space: pre-line;
+}
+
+#html {
+background-color: black;
+color: white;
+text-transform: uppercase;
+}
+
+.titre {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10vw;
+    color: tomato;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    padding: 0vw 10vw 0vw 10vw;
+} 
+
+#main div {
+    margin-right: 5%;
+}

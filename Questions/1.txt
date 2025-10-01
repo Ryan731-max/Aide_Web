@@ -1,0 +1,8 @@
+1. Remplacer absolute par relative
+2. Pour la largeur je voudrais que tu mettes "50%", si la taille correspond a ce qui est demandée, conserves-la
+3. Pour la largeur je voudrais que tu mettes "100%", si la taille correspond a ce qui est demandée, conserves-la
+4. Pour la hauteur je voudrais que tu mettes "200px", si la taille correspond a ce qui est demandée, conserves-la
+5. Pour la hauteur je voudrais que tu mettes "400px", si la taille correspond a ce qui est demandée, conserves-la
+6. Mettre la page en noir et le texte en blanc
+7. Mettre le texte en majuscule
+8. si SUIVANT apparait a la fin de ton travail, passe a SUIVANT
