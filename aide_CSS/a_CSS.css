@@ -2,16 +2,16 @@
 /*I - body _______________________________________________________________________________________*/ 
 
 html {
-    background-color:; /* Pour la couleur de fond je voudrais que tu mettes "black" */
-    color: ; /* Pour la couleur du texte je voudrais que tu mettes "white" */
-    text-transform:; /* Pour le texte je voudrais que tu mettes "uppercase" */
+    background-color: black; /* Pour la couleur de fond je voudrais que tu mettes "black" */
+    color: white; /* Pour la couleur du texte je voudrais que tu mettes "white" */
+    text-transform: uppercase; /* Pour le texte je voudrais que tu mettes "uppercase" */
     font-size: 12px;
 }
 
 #family{
-    position:absolute; /* Pour position je voudrais que tu mettes "relative" */
-    width: 10%; /* Pour la largeur je voudrais que tu mettes "100%" */
-    height: 100px; /* Pour la hauteur je voudrais que tu mettes "400px" */
+    position:absolute relative; /* Pour position je voudrais que tu mettes "relative" */
+    width: 100%; /* Pour la largeur je voudrais que tu mettes "100%" */
+    height: 400px; /* Pour la hauteur je voudrais que tu mettes "400px" */
     margin-left: auto;
     margin-right: auto;
 }
