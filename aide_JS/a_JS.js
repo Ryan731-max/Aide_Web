@@ -18,25 +18,18 @@
 };
 diction = Object.keys(dictio);
 
-for (let i = 1; i <= diction.length; i++) {
+for (let i = 1; i < diction.length; i++) {
+    let cheminTXT = `../Questions/${diction[i]}.txt`;
+    console.log(cheminTXT);
 
-    let chemin = "../aide_Pages/" + dictio[diction[i]];
-    console.log(chemin);
-    let xhr = new XMLHttpRequest();
-    xhr.open("HEAD", chemin, true); 
-
-    if (xhr) {
-            let cheminTXT = "../Questions/" + `${diction[i]}.txt`;
-            console.log(cheminTXT);
-            let xhr1 = new XMLHttpRequest();
-            xhr1.open("GET", cheminTXT, true);
-
-            xhr1.onload = function () {
-                if (xhr1.status === 200) {
-                    document.getElementById(`contenu${i}`).textContent = xhr1.responseText;
-                } else {
-                    document.getElementById(`contenu${i}`).textContent = "Erreur de chargement du texte.";
-                    if (window.location.href.includes("../index.html")) {
+    fetch(cheminTXT)
+        .then(response => response.ok ? response.text() : Promise.reject("Erreur de chargement"))
+        .then(data => {
+            document.getElementById(`contenu${i}`).textContent = data;
+        })
+        .catch(err => {
+            document.getElementById(`contenu${i}`).textContent = "Erreur de chargement du texte.";
+            if (window.location.href.includes("../index.html")) {
                         fetch('../Questions/contenu.txt')
                             .then(response => response.text())
                             .then(data => {
@@ -47,10 +40,9 @@ for (let i = 1; i <= diction.length; i++) {
                                 console.error(error);
                             });
                         }
-                }
-            };
-            xhr1.send();
-        }
+                
+        console.error(err);
+        });
 }
 
 if (window.location.href.includes("index.html")) {

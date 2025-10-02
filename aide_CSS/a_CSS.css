@@ -163,9 +163,29 @@ text-transform: uppercase;
 #main {
     display: flex;
     flex-direction: row;
-    padding: 0vw 10vw 0vw 10vw;
+    padding: 0vw 10vw 0vw 0vw;
 } 
 
 #main div {
     margin-right: 5%;
+
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+        display: block;
+    }
+
+    #contenu {
+        top: 15vw;
+        background-color: blue;
+    }
+
+  #main div {
+    position: relative;
+    width: 60vw;
+    margin: 10vw;
+    background-color: rgb(42, 165, 89);
+  }
+
 }
