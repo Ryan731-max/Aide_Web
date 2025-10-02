@@ -1,0 +1,172 @@
+﻿
+/*I - body _______________________________________________________________________________________*/ 
+
+html {
+    background-color: ; /* Pour la couleur de fond je voudrais que tu mettes "black" */
+    color: ; /* Pour la couleur du texte je voudrais que tu mettes "white" */
+    text-transform: ; /* Pour le texte je voudrais que tu mettes "uppercase" */
+    font-size: 12px;
+}
+
+#family{
+    position:; /* Pour position je voudrais que tu mettes "relative" */
+    width: 10%; /* Pour la largeur je voudrais que tu mettes "100%" */
+    height: 10px; /* Pour la hauteur je voudrais que tu mettes "400px" */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+/*I  -  Navigateur----------------------------------------------------------------------------------------------*/
+
+nav {
+    position: ; /* sticky ? relative ? fixed ? absolute ? */
+    float: ; /* left ou right ? */
+    width: ; /* Pour la largeur je voudrais que tu mettes "15%" */
+    
+    margin-left: ; /* Pour la marge gauche je voudrais que tu mettes "5%" */
+}
+
+ul{
+    padding: 0%;
+}
+
+li{
+    list-style:  ;
+}
+
+.pers, .hist, .ep {
+    background-color:rgba(128, 128, 128, 0.144);
+    margin-bottom: 2px;
+    padding: 5px 1px 5px 20px;
+    border-radius: 2%;
+    cursor: ; /* pointer ? default ? crosshair ?  */
+}
+
+
+aside{
+    /* background-color: rgb(97, 10, 10); */
+    position: ; /* relative ? fixed ? absolute ? */
+    width: ; /* 18.5% ? 25% ? 40% ? */
+    margin-left: 0%;
+    text-align: ; /* center ? left ? right ? */
+    float: ; /* left ou right ? */
+    /* margin-right: 5%; */
+}
+
+/*II  -  Les images et le texte*/
+
+
+section{
+    
+    margin-left: ;   /* 20.7%  ?  ou  30% ? */
+    position: ;
+    /* width: 55%; */
+    text-align: ;  /* justify ? center ? first-line ? */
+}
+
+
+/* #dae, #Jof, #Jai, #San, #Tyr {
+    
+    overflow: auto;
+} */
+/* #Dae, #Jof {
+            float: left;
+            cursor: pointer;
+            border-radius: 30% 30% 0% 30%;
+            width: 130px;
+            height: 130px;
+            margin-right: 10px;
+        }
+            
+.dae{
+padding-top: 10px;
+
+} */
+
+/* #Tyr, #Jai {
+            
+            width: 150px;
+            float: right;
+            border-radius: 0% 30% 30% 30%;
+            width: 130px;
+            height: 130px;
+            margin-left: 10px;
+
+}
+.tyr {
+    clear: left;
+}
+
+.jof{
+    clear: right;
+    border-left: 1px solid white;
+}
+
+.jai, .san{
+    clear: right;
+} */
+
+
+/* #San {
+            border-radius: 0% 30% 30% 30%;
+            height: 130px;
+            width: 130px;
+            margin-right: 10px;
+            float:left;
+} */
+
+
+/*III  -  pied*/
+
+
+/* #enbas {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 100px;
+    display: block;
+} */
+
+
+
+
+
+/* 0 - A NE PAS TOUCHER   _______________________________________________________________________________________*/ 
+
+.contenu1 {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    white-space: pre-line;
+}
+
+#html {
+background-color: black;
+color: white;
+text-transform: uppercase;
+}
+
+.titre {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10vw;
+    color: tomato;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    padding: 0vw 10vw 0vw 10vw;
+} 
+
+#main div {
+    margin-right: 5%;
+}

@@ -1,3 +1,5 @@
+_______________1______________    
+ 
 1. Remplacer absolute par relative
 2. Pour la largeur je voudrais que tu mettes "50%", si la taille correspond a ce qui est demandée, conserves-la
 3. Pour la largeur je voudrais que tu mettes "100%", si la taille correspond a ce qui est demandée, conserves-la

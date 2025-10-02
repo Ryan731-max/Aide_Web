@@ -1,1 +1,6 @@
-Par cet exercice je voudrais que tu puisses te préparer à faire des pages comme tu le veux. Tu vas essayer ces exercices l'un après l'autre page par page pour passer d'une page suivante tu cliques sur suivant ou pour revenir sur l'ancienne page tu cliques sur précédent chaque page est une nouvelle page point HTML si tu veux vérifier le code pour changer quelque chose Pour vérifier quelque chose tu n'as juste qu'à entrer dans aide page Sinon tu vas surtout travailler sur la partie CSS Il n'y a qu'un seul CSS dans ton travail c'est cela que tu vas modifier.
+_______________10______________    
+ 
+1. 
+2. 
+
+3. Passer au suivant 

@@ -1,0 +1,5 @@
+_______________2______________    
+ 
+1. enlever les pointillees aux listes
+2. display flex au lieu de display block
+3. 
