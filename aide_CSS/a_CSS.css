@@ -24,11 +24,11 @@ h1{
 /*I  -  Navigateur----------------------------------------------------------------------------------------------*/
 
 nav {
-    position: ; /* sticky ? relative ? fixed ? absolute ? */
-    float: ; /* left ou right ? */
-    width: ; /* Pour la largeur je voudrais que tu mettes "15%" */
+    position: fixed ; /* sticky ? relative ? fixed ? absolute ? */
+    float: left ; /* left ou right ? */
+    width:15% ; /* Pour la largeur je voudrais que tu mettes "15%" */
     
-    margin-left: ; /* Pour la marge gauche je voudrais que tu mettes "5%" */
+    margin-left: 15%; /* Pour la marge gauche je voudrais que tu mettes "5%" */
 }
 
 ul{
@@ -44,7 +44,7 @@ li{
     margin-bottom: 2px;
     padding: 5px 1px 5px 20px;
     border-radius: 2%;
-    cursor: ; /* pointer ? default ? crosshair ?  */
+    cursor: pointer; /* pointer ? default ? crosshair ?  */
 }
 
 
@@ -53,8 +53,8 @@ aside{
     position: ; /* relative ? fixed ? absolute ? */
     width: ; /* 18.5% ? 25% ? 40% ? */
     margin-left: 0%;
-    text-align: ; /* center ? left ? right ? */
-    float: ; /* left ou right ? */
+    text-align: center ; /* center ? left ? right ? */
+    float: left ; /* left ou right ? */
     /* margin-right: 5%; */
 }
 
@@ -63,10 +63,10 @@ aside{
 
 section{
     
-    margin-left: ;   /* 20.7%  ?  ou  30% ? */
-    position: ;
+    margin-left: 30% ;   /* 20.7%  ?  ou  30% ? */
+    position :fixed ;
     /* width: 55%; */
-    text-align: ;  /* justify ? center ? first-line ? */
+    text-align: justify;  /* justify ? center ? first-line ? */
 }
 
 
