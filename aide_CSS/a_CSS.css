@@ -36,16 +36,16 @@ nav {
     position:  ; /* sticky ? relative ? fixed ? absolute ? */
     float:  ; /* left ou right ? */
     width:15% ; /* Pour la largeur je voudrais que tu mettes "15%" */
-    
+   
     margin-left: 15%; /* Pour la marge gauche je voudrais que tu mettes "5%" */
 }
-
 ul{
     padding: 0%;
+
 }
 
-li{
-    list-style:  ;
+li {
+    list-style-type: none ;        
 }
 
 .pers, .hist, .ep {
@@ -63,7 +63,7 @@ aside{
     width: ; /* 18.5% ? 25% ? 40% ? */
     margin-left: 0%;
     text-align: center ; /* center ? left ? right ? */
-    float:  ; /* left ou right ? */
+    float: left ; /* left ou right ? */
     /* margin-right: 5%; */
 }
 
@@ -76,6 +76,16 @@ section{
     position : ;
     /* width: 55%; */
     text-align: justify;  /* justify ? center ? first-line ? */
+    background-color: blueviolet;
+    display: block;
+   padding: 10px;
+   
+}
+
+div {
+
+    background-color: aqua;
+    display: flex;
 }
 
 
