@@ -1,6 +1,13 @@
-_______________10______________    
- 
-1. 
-2. 
 
-3. Passer au suivant 
+D:/Stockage/Scripts/Windows/POWERSHELL-PLAN/Remote/Allow_Time_Rules.txt
+
+C:\Users\tytre\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+C:/Windows/system32/LogFiles/Firewall/pfirewall.log
+
+
+
+
+
+
+
